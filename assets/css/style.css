@@ -1,0 +1,71 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+.navbar {
+    background-color: #343a40;
+}
+.navbar-brand, .nav-link {
+    color: #fff !important;
+}
+.navbar-brand:hover, .nav-link:hover {
+    color: #ffd700 !important;
+}
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://via.placeholder.com/1200x800') no-repeat center center/cover;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.hero .content {
+    max-width: 50%;
+}
+.card-section {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+}
+.card-section h2 {
+    margin-bottom: 40px;
+}
+.card {
+    border: none;
+    transition: transform 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.about-section {
+    padding: 60px 0;
+    background-color: #e9ecef;
+}
+.map-section {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+}
+.professor-section {
+    padding: 60px 0;
+    background-color: #e9ecef;
+}
+.professor-gallery img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+.footer {
+    padding: 40px 0;
+    background-color: #343a40;
+    color: #fff;
+}
+.footer a {
+    color: #ffd700;
+    text-decoration: none;
+}
+.footer a:hover {
+    color: #fff;
+}
